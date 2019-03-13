@@ -5,7 +5,7 @@ import { pattern2, pattern3 } from './data'
 export default class Matrix extends Component {
 
   genRow = (vals) => (
-    vals.map((val) => <Cell value={val}/>)
+    vals.map((val) => <Cell value={val} />)
   )
 
   genMatrix = () => (
@@ -21,4 +21,6 @@ export default class Matrix extends Component {
   }
 }
 
-Matrix.defaultProps = pattern2;
+Matrix.defaultProps = {
+  values: pattern2
+};

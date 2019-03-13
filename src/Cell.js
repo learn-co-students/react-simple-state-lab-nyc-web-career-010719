@@ -27,5 +27,5 @@ export default class Cell extends Component {
 };
 
 Cell.defaultProps = {
-  color: "#F00"
-};
+  color: '#F00'
+}
